@@ -20,7 +20,7 @@ namespace Kangelased
         public string Name { get => Name; set => Name = value; }
         public string Location { get => Location; set => Location = value; }
 
-        public int Save(int Dangered)
+        public virtual int Save(int Dangered)
         {
             return (int)Math.Round(Dangered * 0.95, 0);
         }
