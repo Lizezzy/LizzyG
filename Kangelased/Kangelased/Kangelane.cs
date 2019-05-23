@@ -17,8 +17,8 @@ namespace Kangelased
             this._Location = Location;
         }
 
-        public string Name { get => Name; set => Name = value; }
-        public string Location { get => Location; set => Location = value; }
+        public string Name { get => _Name; set => _Name = value; }
+        public string Location { get => _Location; set => _Location = value; }
 
         public virtual int Save(int Dangered)
         {

@@ -12,7 +12,7 @@ namespace Kangelased
 
         public Superkangelane(string Name, string Location) : base (Name, Location)
         {
-            _Osavus = SingleRandom.Instance.Next(1, 60)/100;
+            _Osavus = SingleRandom.Instance.Next(1, 51)/10.0;
         }
 
         public override int Save(int Dangered)
