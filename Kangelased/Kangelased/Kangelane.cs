@@ -11,7 +11,7 @@ namespace Kangelased
         private string _Name;
         private string _Location;
 
-        public Hero(string Name, string Location)
+        public Kangelane(string Name, string Location)
         {
             this._Name = Name;
             this._Location = Location;
@@ -27,7 +27,7 @@ namespace Kangelased
 
         public override string ToString()
         {
-            return Nimi + " Defends " + Location;
+            return Name + " Defends " + Location;
         }
 
 
