@@ -11,23 +11,23 @@ namespace Kangelased
         private string _Name;
         private string _Location;
 
-        public Hero(string Name, string Location)
+        public Kangelane(string Name, string Location)
         {
             this._Name = Name;
             this._Location = Location;
         }
 
-        public string Name { get => Name; set => Name = value; }
-        public string Location { get => Location; set => Location = value; }
+        public string Name { get => _Name; set => _Name = value; }
+        public string Location { get => _Location; set => _Location = value; }
 
-        public int Save(int Dangered)
+        public virtual int Save(int Dangered)
         {
             return (int)Math.Round(Dangered * 0.95, 0);
         }
 
         public override string ToString()
         {
-            return Nimi + " Defends " + Location;
+            return Name + " Defends " + Location;
         }
 
 

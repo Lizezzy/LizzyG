@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kangelased", "Kangelased\Kangelased.csproj", "{36BC11AC-9BF9-4FF9-B081-3C3F41E66FCE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7315827-81A4-4FF6-9315-5A9CEDE4973E}"
+	ProjectSection(SolutionItems) = preProject
+		Kangelased.txt = Kangelased.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
